@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/yoondohyun/Desktop/examples-master/lite/codelabs/digit_classifier/android/start/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-eu/values-eu.xml",
+            "outputFile": "/Users/yoondohyun/Desktop/start/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-eu/values-eu.xml",
             "map": [
                 {
                     "source": "/Users/yoondohyun/.gradle/caches/transforms-3/cd8bef0f27508bf80cb2c8bd53164c24/transformed/appcompat-1.3.0/res/values-eu/values-eu.xml",

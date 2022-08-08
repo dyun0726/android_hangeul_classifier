@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/yoondohyun/Desktop/examples-master/lite/codelabs/digit_classifier/android/start/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-el/values-el.xml",
+            "outputFile": "/Users/yoondohyun/Desktop/start/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-el/values-el.xml",
             "map": [
                 {
                     "source": "/Users/yoondohyun/.gradle/caches/transforms-3/d1a8a0c9a4566d7f3db4d02333df937b/transformed/jetified-play-services-basement-17.6.0/res/values-el/values.xml",

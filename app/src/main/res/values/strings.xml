@@ -1,8 +1,9 @@
 <resources>
   <string name="app_name" translatable="false">Hangeul classifier</string>
   <string name="clear_button_text" translatable="false">Clear</string>
-  <string name="prediction_text_placeholder" translatable="false">Please write hangeul</string>
+  <string name="edit_text_placeholder" translatable="false">1. 작성할 문자를 입력하세요</string>
+  <string name="prediction_text_placeholder" translatable="false">2. 캔버스에 한글을 써주세요</string>
   <string name="classification_error_message" translatable="false">Error classifying drawing: %s</string>
   <string name="test_message" translatable="false">Test message</string>
-  <string name="goto_main_message" translatable="false">Goto Main</string>
+  <string name="return_button_text" translatable="false">Return</string>
 </resources>

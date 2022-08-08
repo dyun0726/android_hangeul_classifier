@@ -1870,6 +1870,7 @@ id clip_horizontal
 id clip_vertical
 id clockwise
 id collapseActionView
+id compare_button
 id confirm_button
 id container
 id content
@@ -1914,6 +1915,7 @@ id easeIn
 id easeInOut
 id easeOut
 id edit_query
+id edit_text
 id elastic
 id end
 id endToStart
@@ -2074,6 +2076,7 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
+id return_button
 id reverseSawtooth
 id right
 id rightToLeft
@@ -2136,6 +2139,7 @@ id staticLayout
 id staticPostLayout
 id stop
 id stretch
+id sub_text
 id submenuarrow
 id submit_area
 id tabMode
@@ -2405,11 +2409,11 @@ string classification_error_message
 string clear_button_text
 string clear_text_end_icon_content_description
 string common_google_play_services_unknown_issue
+string edit_text_placeholder
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
-string goto_main_message
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string item_view_role_description
@@ -2474,6 +2478,7 @@ string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
 string prediction_text_placeholder
+string return_button_text
 string search_menu_title
 string status_bar_notification_info_overflow
 string test_message

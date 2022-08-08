@@ -20,15 +20,12 @@ import android.os.Bundle
 import android.util.Log
 import android.view.MotionEvent
 import android.widget.Button
+import android.widget.EditText
 import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.divyanshu.draw.widget.DrawView
-import java.io.BufferedWriter
-import java.io.BufferedReader
-import java.io.File
-import java.io.FileReader
-import java.io.FileWriter
+import java.io.*
 
 class MainActivity : AppCompatActivity() {
 
@@ -41,6 +38,7 @@ class MainActivity : AppCompatActivity() {
   private var testTextView: TextView? = null
   private var deleteButton: Button? = null
   private var showButton: Button? = null
+  private var compareButton: Button? = null
 
   @SuppressLint("ClickableViewAccessibility")
   override fun onCreate(savedInstanceState: Bundle?) {
@@ -59,6 +57,8 @@ class MainActivity : AppCompatActivity() {
     // test.txt 관련 버튼
     deleteButton = findViewById(R.id.text_delete_button)
     showButton = findViewById(R.id.text_show_button)
+    //
+    compareButton = findViewById(R.id.compare_button)
 
 
     var tmp = ""
@@ -91,6 +91,10 @@ class MainActivity : AppCompatActivity() {
       posList = ArrayList<String>()
     }
 
+    // 문자 판별 버튼
+    compareButton?.setOnClickListener {
+      compareText()
+    }
 
 
     // Setup classification trigger so that it classify after every stroke drew.
@@ -148,9 +152,46 @@ class MainActivity : AppCompatActivity() {
     }
   }
 
+  // 문자 비교
+  fun compareText(){
+    // edit 문자 확인
+    var editText: EditText = findViewById(R.id.edit_text)
+    var editTextString = editText?.text.toString()
+
+    var editTextChar = ' '
+    if (editTextString != ""){
+      editTextChar = editTextString[0]
+    }
+    Log.d("윤도현", editTextChar.toString())
+
+    // predict 문자 확인
+    var predictText = predictedTextView?.text.toString()
+    Log.d("윤도현", predictText)
+
+    var compare = false
+    if (predictText != "2. 캔버스에 한글을 써주세요"){
+      var label = predictText[19]
+      compare = (editTextChar == label)
+
+      Log.d("윤도현", label.toString())
+    }
+
+    // 화면에 true or false 표시
+    if (compare){
+      testTextView?.text = "맞는 글자를 씀"
+    } else {
+      if (editTextChar == ' '){
+        testTextView?.text = "채점할 글자를 입력하지 않음"
+      } else {
+        testTextView?.text = "틀린 글자를 씀"
+      }
+    }
+
+  }
+
   // 파일 쓰기
   fun writeTextFile(directory:String, content:String){
-    Log.d("check", directory)
+    Log.d("윤도현", directory)
     val dir = File(directory)
 
     if(!dir.exists()){ //dir이 존재 하지 않을때
@@ -163,31 +204,6 @@ class MainActivity : AppCompatActivity() {
     buffer.close()
 
   }
-  // 파일 일기
-  fun readTextFile(directory: String){
-    val file = File("$directory/data.txt")
-
-    if(!file.exists())
-      return
-
-    val reader = FileReader(file)
-    val buffer = BufferedReader(reader)
-    var temp = ""
-    val result = StringBuffer()
-    while (true) {
-      temp = buffer.readLine()
-      if (temp == null)
-        break
-      else
-        result.append(buffer)
-    }
-    buffer.close()
-
-    var inputText = result.toString()
-    Log.d("윤도현", inputText)
-
-  }
-
 
   // 파일 삭제
   fun deleteTextFile(directory: String) {

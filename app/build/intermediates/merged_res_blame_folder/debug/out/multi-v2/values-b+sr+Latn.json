@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/yoondohyun/Desktop/examples-master/lite/codelabs/digit_classifier/android/start/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-b+sr+Latn/values-b+sr+Latn.xml",
+            "outputFile": "/Users/yoondohyun/Desktop/start/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-b+sr+Latn/values-b+sr+Latn.xml",
             "map": [
                 {
                     "source": "/Users/yoondohyun/.gradle/caches/transforms-3/967ed3d771449d2f29d32cbe6c23459b/transformed/core-1.5.0/res/values-b+sr+Latn/values-b+sr+Latn.xml",

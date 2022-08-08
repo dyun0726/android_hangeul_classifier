@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/yoondohyun/Desktop/examples-master/lite/codelabs/digit_classifier/android/start/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-h320dp-port-v13/values-h320dp-port-v13.xml",
+            "outputFile": "/Users/yoondohyun/Desktop/start/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-h320dp-port-v13/values-h320dp-port-v13.xml",
             "map": [
                 {
                     "source": "/Users/yoondohyun/.gradle/caches/transforms-3/0552d9149fa043099640c367a47d9974/transformed/material-1.4.0/res/values-h320dp-port-v13/values-h320dp-port-v13.xml",

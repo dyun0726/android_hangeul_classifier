@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/yoondohyun/Desktop/examples-master/lite/codelabs/digit_classifier/android/start/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
+            "outputFile": "/Users/yoondohyun/Desktop/start/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
             "map": [
                 {
                     "source": "/Users/yoondohyun/.gradle/caches/transforms-3/95ad0f681b0fdd07404e8272a6d06331/transformed/cardview-1.0.0/res/values-v23/values-v23.xml",
