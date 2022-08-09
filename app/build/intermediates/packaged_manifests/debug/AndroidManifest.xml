@@ -20,6 +20,9 @@
         android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity
+            android:name="org.tensorflow.lite.codelabs.digitclassifier.GenerateActivity"
+            android:exported="false" />
+        <activity
             android:name="org.tensorflow.lite.codelabs.digitclassifier.SubActivity"
             android:exported="false" />
         <activity

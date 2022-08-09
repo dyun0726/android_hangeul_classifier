@@ -40,6 +40,10 @@
         "source": "/Users/yoondohyun/Desktop/start/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
     },
     {
+        "merged": "/Users/yoondohyun/Desktop/start/app/build/intermediates/res/merged/debug/layout_activity_generate.xml.flat",
+        "source": "/Users/yoondohyun/Desktop/start/app/src/main/res/layout/activity_generate.xml"
+    },
+    {
         "merged": "/Users/yoondohyun/Desktop/start/app/build/intermediates/res/merged/debug/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
         "source": "/Users/yoondohyun/Desktop/start/app/build/generated/res/pngs/debug/drawable-anydpi-v24/ic_launcher_foreground.xml"
     },

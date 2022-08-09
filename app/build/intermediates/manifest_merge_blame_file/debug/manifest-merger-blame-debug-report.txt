@@ -12,7 +12,7 @@
 9-->/Users/yoondohyun/Desktop/start/app/src/main/AndroidManifest.xml:6:5-17
 10
 11    <application
-11-->/Users/yoondohyun/Desktop/start/app/src/main/AndroidManifest.xml:8:5-29:19
+11-->/Users/yoondohyun/Desktop/start/app/src/main/AndroidManifest.xml:8:5-32:19
 12        android:allowBackup="true"
 12-->/Users/yoondohyun/Desktop/start/app/src/main/AndroidManifest.xml:9:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -33,40 +33,46 @@
 21-->/Users/yoondohyun/Desktop/start/app/src/main/AndroidManifest.xml:15:9-40
 22        <activity
 22-->/Users/yoondohyun/Desktop/start/app/src/main/AndroidManifest.xml:17:9-19:40
-23            android:name="org.tensorflow.lite.codelabs.digitclassifier.SubActivity"
-23-->/Users/yoondohyun/Desktop/start/app/src/main/AndroidManifest.xml:18:13-40
+23            android:name="org.tensorflow.lite.codelabs.digitclassifier.GenerateActivity"
+23-->/Users/yoondohyun/Desktop/start/app/src/main/AndroidManifest.xml:18:13-45
 24            android:exported="false" />
 24-->/Users/yoondohyun/Desktop/start/app/src/main/AndroidManifest.xml:19:13-37
 25        <activity
-25-->/Users/yoondohyun/Desktop/start/app/src/main/AndroidManifest.xml:20:9-28:20
-26            android:name="org.tensorflow.lite.codelabs.digitclassifier.MainActivity"
-26-->/Users/yoondohyun/Desktop/start/app/src/main/AndroidManifest.xml:21:13-41
-27            android:exported="true" >
-27-->/Users/yoondohyun/Desktop/start/app/src/main/AndroidManifest.xml:22:13-36
-28            <intent-filter>
-28-->/Users/yoondohyun/Desktop/start/app/src/main/AndroidManifest.xml:23:13-27:29
-29                <action android:name="android.intent.action.MAIN" />
-29-->/Users/yoondohyun/Desktop/start/app/src/main/AndroidManifest.xml:24:17-69
-29-->/Users/yoondohyun/Desktop/start/app/src/main/AndroidManifest.xml:24:25-66
-30
-31                <category android:name="android.intent.category.LAUNCHER" />
-31-->/Users/yoondohyun/Desktop/start/app/src/main/AndroidManifest.xml:26:17-77
-31-->/Users/yoondohyun/Desktop/start/app/src/main/AndroidManifest.xml:26:27-74
-32            </intent-filter>
-33        </activity>
-34        <activity
-34-->[com.github.divyanshub024:AndroidDraw:v0.1] /Users/yoondohyun/.gradle/caches/transforms-3/737ffb93e82989ac05a2567a2123b58b/transformed/jetified-AndroidDraw-v0.1/AndroidManifest.xml:12:9-14:66
-35            android:name="com.divyanshu.draw.activity.DrawingActivity"
-35-->[com.github.divyanshub024:AndroidDraw:v0.1] /Users/yoondohyun/.gradle/caches/transforms-3/737ffb93e82989ac05a2567a2123b58b/transformed/jetified-AndroidDraw-v0.1/AndroidManifest.xml:13:13-71
-36            android:theme="@style/Theme.AppCompat.NoActionBar" />
-36-->[com.github.divyanshub024:AndroidDraw:v0.1] /Users/yoondohyun/.gradle/caches/transforms-3/737ffb93e82989ac05a2567a2123b58b/transformed/jetified-AndroidDraw-v0.1/AndroidManifest.xml:14:13-63
-37
-38        <meta-data
-38-->[com.google.android.gms:play-services-basement:17.6.0] /Users/yoondohyun/.gradle/caches/transforms-3/d1a8a0c9a4566d7f3db4d02333df937b/transformed/jetified-play-services-basement-17.6.0/AndroidManifest.xml:23:9-25:69
-39            android:name="com.google.android.gms.version"
-39-->[com.google.android.gms:play-services-basement:17.6.0] /Users/yoondohyun/.gradle/caches/transforms-3/d1a8a0c9a4566d7f3db4d02333df937b/transformed/jetified-play-services-basement-17.6.0/AndroidManifest.xml:24:13-58
-40            android:value="@integer/google_play_services_version" />
-40-->[com.google.android.gms:play-services-basement:17.6.0] /Users/yoondohyun/.gradle/caches/transforms-3/d1a8a0c9a4566d7f3db4d02333df937b/transformed/jetified-play-services-basement-17.6.0/AndroidManifest.xml:25:13-66
-41    </application>
-42
-43</manifest>
+25-->/Users/yoondohyun/Desktop/start/app/src/main/AndroidManifest.xml:20:9-22:40
+26            android:name="org.tensorflow.lite.codelabs.digitclassifier.SubActivity"
+26-->/Users/yoondohyun/Desktop/start/app/src/main/AndroidManifest.xml:21:13-40
+27            android:exported="false" />
+27-->/Users/yoondohyun/Desktop/start/app/src/main/AndroidManifest.xml:22:13-37
+28        <activity
+28-->/Users/yoondohyun/Desktop/start/app/src/main/AndroidManifest.xml:23:9-31:20
+29            android:name="org.tensorflow.lite.codelabs.digitclassifier.MainActivity"
+29-->/Users/yoondohyun/Desktop/start/app/src/main/AndroidManifest.xml:24:13-41
+30            android:exported="true" >
+30-->/Users/yoondohyun/Desktop/start/app/src/main/AndroidManifest.xml:25:13-36
+31            <intent-filter>
+31-->/Users/yoondohyun/Desktop/start/app/src/main/AndroidManifest.xml:26:13-30:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->/Users/yoondohyun/Desktop/start/app/src/main/AndroidManifest.xml:27:17-69
+32-->/Users/yoondohyun/Desktop/start/app/src/main/AndroidManifest.xml:27:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->/Users/yoondohyun/Desktop/start/app/src/main/AndroidManifest.xml:29:17-77
+34-->/Users/yoondohyun/Desktop/start/app/src/main/AndroidManifest.xml:29:27-74
+35            </intent-filter>
+36        </activity>
+37        <activity
+37-->[com.github.divyanshub024:AndroidDraw:v0.1] /Users/yoondohyun/.gradle/caches/transforms-3/737ffb93e82989ac05a2567a2123b58b/transformed/jetified-AndroidDraw-v0.1/AndroidManifest.xml:12:9-14:66
+38            android:name="com.divyanshu.draw.activity.DrawingActivity"
+38-->[com.github.divyanshub024:AndroidDraw:v0.1] /Users/yoondohyun/.gradle/caches/transforms-3/737ffb93e82989ac05a2567a2123b58b/transformed/jetified-AndroidDraw-v0.1/AndroidManifest.xml:13:13-71
+39            android:theme="@style/Theme.AppCompat.NoActionBar" />
+39-->[com.github.divyanshub024:AndroidDraw:v0.1] /Users/yoondohyun/.gradle/caches/transforms-3/737ffb93e82989ac05a2567a2123b58b/transformed/jetified-AndroidDraw-v0.1/AndroidManifest.xml:14:13-63
+40
+41        <meta-data
+41-->[com.google.android.gms:play-services-basement:17.6.0] /Users/yoondohyun/.gradle/caches/transforms-3/d1a8a0c9a4566d7f3db4d02333df937b/transformed/jetified-play-services-basement-17.6.0/AndroidManifest.xml:23:9-25:69
+42            android:name="com.google.android.gms.version"
+42-->[com.google.android.gms:play-services-basement:17.6.0] /Users/yoondohyun/.gradle/caches/transforms-3/d1a8a0c9a4566d7f3db4d02333df937b/transformed/jetified-play-services-basement-17.6.0/AndroidManifest.xml:24:13-58
+43            android:value="@integer/google_play_services_version" />
+43-->[com.google.android.gms:play-services-basement:17.6.0] /Users/yoondohyun/.gradle/caches/transforms-3/d1a8a0c9a4566d7f3db4d02333df937b/transformed/jetified-play-services-basement-17.6.0/AndroidManifest.xml:25:13-66
+44    </application>
+45
+46</manifest>

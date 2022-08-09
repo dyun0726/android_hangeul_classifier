@@ -1882,6 +1882,7 @@ id counterclockwise
 id custom
 id customPanel
 id cut
+id data_generate_button
 id date_picker_actions
 id decelerate
 id decelerateAndComplete
@@ -1935,6 +1936,11 @@ id flip
 id floating
 id forever
 id fragment_container_view_tag
+id gen_clear_button
+id gen_draw_view
+id gen_edit_text
+id gen_return_button
+id gen_save_button
 id ghost_view
 id ghost_view_holder
 id gone
@@ -1943,6 +1949,7 @@ id graph_wrap
 id group_divider
 id grouping
 id groups
+id guide_text
 id guideline
 id header_title
 id hideable
@@ -2280,6 +2287,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_drawing
+layout activity_generate
 layout activity_main
 layout activity_sub
 layout color_palette_view

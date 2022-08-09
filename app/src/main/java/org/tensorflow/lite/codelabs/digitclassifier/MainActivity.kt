@@ -39,6 +39,7 @@ class MainActivity : AppCompatActivity() {
   private var deleteButton: Button? = null
   private var showButton: Button? = null
   private var compareButton: Button? = null
+  private var generateButton: Button? = null
 
   @SuppressLint("ClickableViewAccessibility")
   override fun onCreate(savedInstanceState: Bundle?) {
@@ -59,6 +60,7 @@ class MainActivity : AppCompatActivity() {
     showButton = findViewById(R.id.text_show_button)
     //
     compareButton = findViewById(R.id.compare_button)
+    generateButton = findViewById(R.id.data_generate_button)
 
 
     var tmp = ""
@@ -84,8 +86,8 @@ class MainActivity : AppCompatActivity() {
       tmp = ""
 
       // 지금까지의 좌표값 test.txt에 저장
-      writeTextFile(filesDir.absolutePath, "clear")
-      posList.forEach{ writeTextFile(filesDir.absolutePath, it)}
+//      writeTextFile(filesDir.absolutePath, "clear")
+//      posList.forEach{ writeTextFile(filesDir.absolutePath, it)}
 
       // posList 초기화
       posList = ArrayList<String>()
@@ -94,6 +96,11 @@ class MainActivity : AppCompatActivity() {
     // 문자 판별 버튼
     compareButton?.setOnClickListener {
       compareText()
+    }
+
+    generateButton?.setOnClickListener {
+      val intent = Intent(this, GenerateActivity::class.java)
+      startActivity(intent)
     }
 
 
@@ -186,22 +193,6 @@ class MainActivity : AppCompatActivity() {
         testTextView?.text = "틀린 글자를 씀"
       }
     }
-
-  }
-
-  // 파일 쓰기
-  fun writeTextFile(directory:String, content:String){
-    Log.d("윤도현", directory)
-    val dir = File(directory)
-
-    if(!dir.exists()){ //dir이 존재 하지 않을때
-      dir.mkdirs() //mkdirs : 중간에 directory가 없어도 생성됨
-    }
-
-    val writer = FileWriter("$directory/data.txt",true)
-    val buffer = BufferedWriter(writer)
-    buffer.write(content+ "\n")
-    buffer.close()
 
   }
 
