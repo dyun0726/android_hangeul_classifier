@@ -37,7 +37,7 @@ class MainActivity : AppCompatActivity() {
   // 추가 변수
   private var testTextView: TextView? = null
   private var deleteButton: Button? = null
-  private var showButton: Button? = null
+  private var checkButton: Button? = null
   private var compareButton: Button? = null
   private var generateButton: Button? = null
 
@@ -57,7 +57,7 @@ class MainActivity : AppCompatActivity() {
     testTextView = findViewById(R.id.test_text)
     // test.txt 관련 버튼
     deleteButton = findViewById(R.id.text_delete_button)
-    showButton = findViewById(R.id.text_show_button)
+    checkButton = findViewById(R.id.text_check_button)
     //
     compareButton = findViewById(R.id.compare_button)
     generateButton = findViewById(R.id.data_generate_button)
@@ -73,7 +73,7 @@ class MainActivity : AppCompatActivity() {
 
     // show 버튼 누르면 새창 나와서 저장된 값들 볼수 있게
     // SubActivity 실행
-    showButton?.setOnClickListener {
+    checkButton?.setOnClickListener {
       val intent = Intent(this, SubActivity::class.java)
       startActivity(intent)
     }
@@ -85,9 +85,6 @@ class MainActivity : AppCompatActivity() {
       testTextView?.text = getString(R.string.test_message)
       tmp = ""
 
-      // 지금까지의 좌표값 test.txt에 저장
-//      writeTextFile(filesDir.absolutePath, "clear")
-//      posList.forEach{ writeTextFile(filesDir.absolutePath, it)}
 
       // posList 초기화
       posList = ArrayList<String>()

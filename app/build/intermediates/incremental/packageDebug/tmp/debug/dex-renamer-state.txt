@@ -1,4 +1,4 @@
-#Tue Aug 09 16:22:34 KST 2022
+#Wed Aug 10 17:37:52 KST 2022
 base.1=/Users/yoondohyun/Desktop/start/app/build/intermediates/dex/debug/mergeProjectDexDebug/classes.dex
 path.1=classes.dex
 base.0=/Users/yoondohyun/Desktop/start/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex

@@ -2083,7 +2083,6 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
-id return_button
 id reverseSawtooth
 id right
 id rightToLeft
@@ -2146,7 +2145,12 @@ id staticLayout
 id staticPostLayout
 id stop
 id stretch
-id sub_text
+id sub_clear_button
+id sub_draw_view
+id sub_edit_text
+id sub_guide_text
+id sub_return_button
+id sub_test_button
 id submenuarrow
 id submit_area
 id tabMode
@@ -2175,11 +2179,11 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
+id text_check_button
 id text_delete_button
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
-id text_show_button
 id textinput_counter
 id textinput_error
 id textinput_helper_text
@@ -2489,6 +2493,7 @@ string prediction_text_placeholder
 string return_button_text
 string search_menu_title
 string status_bar_notification_info_overflow
+string sub_text
 string test_message
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light

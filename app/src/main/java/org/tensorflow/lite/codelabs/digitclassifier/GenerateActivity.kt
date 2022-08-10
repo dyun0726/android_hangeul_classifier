@@ -8,6 +8,7 @@ import android.util.Log
 import android.view.MotionEvent
 import android.widget.Button
 import android.widget.EditText
+import android.widget.TextView
 import com.divyanshu.draw.widget.DrawView
 import java.io.BufferedWriter
 import java.io.File
@@ -62,10 +63,12 @@ class GenerateActivity : AppCompatActivity() {
             // posX, posY 를 통해 길이 50이고 변환된 좌표 리스트 얻음
             var posXY = convertPos(posX, posY)
 
+            var dicMap = mapOf("ㄱ" to "a","ㄴ" to "b","ㄷ" to "c","ㄹ" to "d","ㅁ" to "e","ㅂ" to "f","ㅅ" to "g","ㅇ" to "h","ㅈ" to "i","ㅊ" to "j","ㅋ" to "k","ㅌ" to "l","ㅍ" to "m","ㅎ" to "n","ㅏ" to "o","ㅓ" to "p","ㅗ" to "q","ㅜ" to "r","ㅡ" to "s","ㅣ" to "t","ㅑ" to "u","ㅕ" to "v","ㅛ" to "w","ㅠ" to "x","ㅐ" to "y","ㅒ" to "z","ㅔ" to "a1","ㅖ" to "b1")
+
             // 텍스트 파일 작성
-            writeTextFile(filesDir.absolutePath, saveValue + "\n")
-            writeTextFile(filesDir.absolutePath, posXY.toString() + "\n")
-            writeTextFile(filesDir.absolutePath, strokeInfo.toString() + "\n")
+            writeTextFile(filesDir.absolutePath, dicMap[saveValue]!!,saveValue + "\n")
+            writeTextFile(filesDir.absolutePath, dicMap[saveValue]!!,posXY.toString() + "\n")
+            writeTextFile(filesDir.absolutePath, dicMap[saveValue]!!,strokeInfo.toString() + "\n")
 
 
             // posList, canvas 초기화
@@ -93,7 +96,7 @@ class GenerateActivity : AppCompatActivity() {
     }
 
     // 파일 쓰기
-    fun writeTextFile(directory:String, content:String){
+    fun writeTextFile(directory:String, filename:String, content:String){
         Log.d("윤도현", directory)
         val dir = File(directory)
 
@@ -101,7 +104,8 @@ class GenerateActivity : AppCompatActivity() {
             dir.mkdirs() //mkdirs : 중간에 directory가 없어도 생성됨
         }
 
-        val writer = FileWriter("$directory/data.txt",true)
+
+        val writer = FileWriter(directory + "/" + filename + "_right.txt",true)
         val buffer = BufferedWriter(writer)
         buffer.write(content)
         buffer.close()
