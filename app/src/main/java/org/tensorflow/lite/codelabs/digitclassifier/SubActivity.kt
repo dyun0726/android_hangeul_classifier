@@ -81,27 +81,39 @@ class SubActivity : AppCompatActivity() {
             // 검사할 글자
             var dicMap = mapOf("ㄱ" to "a","ㄴ" to "b","ㄷ" to "c","ㄹ" to "d","ㅁ" to "e","ㅂ" to "f","ㅅ" to "g","ㅇ" to "h","ㅈ" to "i","ㅊ" to "j","ㅋ" to "k","ㅌ" to "l","ㅍ" to "m","ㅎ" to "n","ㅏ" to "o","ㅓ" to "p","ㅗ" to "q","ㅜ" to "r","ㅡ" to "s","ㅣ" to "t","ㅑ" to "u","ㅕ" to "v","ㅛ" to "w","ㅠ" to "x","ㅐ" to "y","ㅒ" to "z","ㅔ" to "a1","ㅖ" to "b1")
             var strokeMap = mapOf("ㄱ" to "1","ㄴ" to "1","ㄷ" to "2","ㄹ" to "3","ㅁ" to "3","ㅂ" to "4","ㅅ" to "2","ㅇ" to "1","ㅈ" to "2","ㅊ" to "3","ㅋ" to "2","ㅌ" to "3","ㅍ" to "4","ㅎ" to "3","ㅏ" to "2","ㅓ" to "2","ㅗ" to "2","ㅜ" to "2","ㅡ" to "1","ㅣ" to "1","ㅑ" to "3","ㅕ" to "3","ㅛ" to "3","ㅠ" to "3","ㅐ" to "3","ㅒ" to "4","ㅔ" to "3","ㅖ" to "4")
+            var strokeModel = mapOf("ㄱ" to "a", "ㄴ" to "b", "ㄷ" to "ca", "ㄹ" to "acb", "ㅁ" to "dac", "ㅂ" to "ddcc", "ㅅ" to "ef", "ㅇ" to "g", "ㅈ" to "hf", "ㅊ" to "ihf", "ㅋ" to "ac", "ㅌ" to "ccb", "ㅍ" to "cddc", "ㅎ" to "icg", "ㅏ" to "kj", "ㅓ" to "jk", "ㅗ" to "kj", "ㅜ" to "jk", "ㅡ" to "j", "ㅣ" to "k", "ㅑ" to "kjj", "ㅕ" to "jjk", "ㅛ" to "kkj", "ㅠ" to "jkk")
             val checkChar = editText.text[0].toString()
 
             // stroke 비교
             if (strokeNum != strokeMap[checkChar]!!.toInt()){
-                //
                 subTextView.text = "획수가 다름!\n실제 획수: " + strokeMap[checkChar] + "\n입력된 획수: "+ strokeNum.toString()
             } else {
                 // 모델 불러오기
-                val model = loadModelFile(resources.assets, dicMap[checkChar]!! + ".tflite")
-                val interpreter = Interpreter(model)
+                var realStroke = strokeMap[checkChar]!!.toInt()
+                Log.d("윤도현", realStroke.toString())
+                for (i in 0 until realStroke){
+                    var modelName = "stroke_" + strokeModel[checkChar]!![i] + ".tflite"
+                    Log.d("윤도현", modelName)
+                    var model = loadModelFile(resources.assets, modelName)
+                    Log.d("윤도현", "load succ")
 
-                // 추론 결과
-                interpreter.run(byteBuffer, output)
-                val result = output[0][0]
-                Log.d("윤도현", result.toString())
+                    val interpreter = Interpreter(model)
 
-                // 결과 띄우기
-                if (result > 0.5){
-                    subTextView.text = "옳은 획순,\nconfidence: "+ result.toString()
-                } else {
-                    subTextView.text = "잘못된 획순 or 다른 글자,\nconfidence: " + result.toString()
+                    Log.d("윤도현", "interpreter")
+
+                    // 추론 결과
+                    interpreter.run(byteBuffer, output)
+                    val result = output[0][0]
+                    Log.d("윤도현", result.toString())
+
+                    // 결과 띄우기
+                    if (result > 0.5){
+                        subTextView.text = "옳은 획순,\nconfidence: "+ result.toString()
+                    } else {
+                        subTextView.text = "잘못된 획순 or 다른 글자,\nconfidence: " + result.toString()
+                    }
+
+
                 }
 
             }
