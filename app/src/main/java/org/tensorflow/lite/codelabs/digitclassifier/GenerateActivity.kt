@@ -170,4 +170,15 @@ class GenerateActivity : AppCompatActivity() {
 
         return arrayListOf(newX, newY)
     }
+
+    // 파일 삭제
+//  fun deleteTextFile(directory: String) {
+//    Log.d("윤도현", "deleteTextFile")
+//    val file = File("$directory/data.txt")
+//
+//    if (file.exists()){
+//      Log.d("윤도현", "isFile")
+//      file.delete()
+//    }
+//  }
 }

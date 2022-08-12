@@ -56,7 +56,7 @@ class MainActivity : AppCompatActivity() {
     // 추가 test string
     testTextView = findViewById(R.id.test_text)
     // test.txt 관련 버튼
-    deleteButton = findViewById(R.id.text_delete_button)
+//    deleteButton = findViewById(R.id.text_delete_button)
     checkButton = findViewById(R.id.text_check_button)
     //
     compareButton = findViewById(R.id.compare_button)
@@ -67,9 +67,9 @@ class MainActivity : AppCompatActivity() {
     var posList = ArrayList<String>()
 
     // delete 버튼 누르면 test.txt 파일 삭제
-    deleteButton?.setOnClickListener {
-      deleteTextFile(filesDir.absolutePath)
-    }
+//    deleteButton?.setOnClickListener {
+//      deleteTextFile(filesDir.absolutePath)
+//    }
 
     // show 버튼 누르면 새창 나와서 저장된 값들 볼수 있게
     // SubActivity 실행
@@ -193,16 +193,6 @@ class MainActivity : AppCompatActivity() {
 
   }
 
-  // 파일 삭제
-  fun deleteTextFile(directory: String) {
-    Log.d("윤도현", "deleteTextFile")
-    val file = File("$directory/data.txt")
-
-    if (file.exists()){
-      Log.d("윤도현", "isFile")
-      file.delete()
-    }
-  }
 
 
   companion object {

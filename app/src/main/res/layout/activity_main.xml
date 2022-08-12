@@ -47,10 +47,20 @@
       app:layout_constraintTop_toBottomOf="@id/predicted_text" />
 
   <Button
+      android:id="@+id/text_check_button"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="획순 연습"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintHorizontal_bias="0.05"
+      app:layout_constraintLeft_toLeftOf="parent"
+      app:layout_constraintRight_toRightOf="parent" />
+
+  <Button
       android:id="@+id/compare_button"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
-      android:text="compare"
+      android:text="체크"
       app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintHorizontal_bias="0.35"
       app:layout_constraintLeft_toLeftOf="parent"
@@ -67,31 +77,11 @@
       app:layout_constraintRight_toRightOf="parent" />
 
   <Button
-      android:id="@+id/text_delete_button"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:text="delete"
-      app:layout_constraintBottom_toBottomOf="parent"
-      app:layout_constraintHorizontal_bias="0.95"
-      app:layout_constraintLeft_toLeftOf="parent"
-      app:layout_constraintRight_toRightOf="parent" />
-
-  <Button
-      android:id="@+id/text_check_button"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:text="check"
-      app:layout_constraintBottom_toBottomOf="parent"
-      app:layout_constraintHorizontal_bias="0.05"
-      app:layout_constraintLeft_toLeftOf="parent"
-      app:layout_constraintRight_toRightOf="parent" />
-
-  <Button
       android:id="@+id/data_generate_button"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
-      android:text="generate"
-      app:layout_constraintBottom_toTopOf="@id/text_delete_button"
+      android:text="data 생성"
+      app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintHorizontal_bias="0.95"
       app:layout_constraintLeft_toLeftOf="parent"
       app:layout_constraintRight_toRightOf="parent" />
