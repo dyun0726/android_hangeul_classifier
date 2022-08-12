@@ -21,6 +21,7 @@ import java.nio.channels.FileChannel
 class SubActivity : AppCompatActivity() {
 
     private var drawView: DrawView? = null
+    private var Utilities = Utilities()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -52,7 +53,7 @@ class SubActivity : AppCompatActivity() {
             // Then if user finished a touch event, run classification
             if (event.action == MotionEvent.ACTION_UP) {
                 // 터치가 떼어질때 stroke 증가
-                allStrokePosXY.add(convertPos(posX, posY))
+                allStrokePosXY.add(Utilities.convertPos(posX, posY))
                 strokeNum ++
                 posX = ArrayList<Float>()
                 posY = ArrayList<Float>()
@@ -67,11 +68,11 @@ class SubActivity : AppCompatActivity() {
             val strokeModel = mapOf("ㄱ" to "a", "ㄴ" to "b", "ㄷ" to "cb", "ㄹ" to "acb", "ㅁ" to "dac", "ㅂ" to "ddcc", "ㅅ" to "ef", "ㅇ" to "g", "ㅈ" to "hf", "ㅊ" to "ihf", "ㅋ" to "ac", "ㅌ" to "ccb", "ㅍ" to "cddc", "ㅎ" to "icg",
                                     "ㅏ" to "kj", "ㅓ" to "jk", "ㅗ" to "kj", "ㅜ" to "jk", "ㅡ" to "j", "ㅣ" to "k",
                                     "ㅑ" to "kjj", "ㅕ" to "jjk", "ㅛ" to "kkj", "ㅠ" to "jkk","ㅐ" to "jkj", "ㅒ" to "kjjk", "ㅔ" to "jkk", "ㅖ" to "jjkk", " " to "")
-            // input size 구하기 (4* 100)
-            val inputSize = FLOAT_TYPE_SIZE * 50 * 2
+            // input size 구하기 (float size * data length * 2(x, y))
+            val inputSize = 4 * 50 * 2
 
             // 검사할 글자
-            val listChar:String = divideHangeul(editText.text[0])
+            val listChar:String = Utilities.divideHangeul(editText.text[0])
 
             // 전체 획순이 맞는지 확인
             var correctStrokeNum = 0
@@ -107,7 +108,7 @@ class SubActivity : AppCompatActivity() {
 
                     // model 불러오기
                     var modelName = "stroke_" + modelSequence[i]!! + ".tflite"
-                    var model = loadModelFile(resources.assets, modelName)
+                    var model = Utilities.loadModelFile(resources.assets, modelName)
                     val interpreter = Interpreter(model)
 
                     // 추론 결과
@@ -152,141 +153,6 @@ class SubActivity : AppCompatActivity() {
             subTextView.text = getString(R.string.sub_text)
         }
 
-    }
-
-    // model 불러오는 함수
-    private fun loadModelFile(assetManager: AssetManager, filename: String): ByteBuffer {
-        val fileDescriptor = assetManager.openFd(filename)
-        val inputStream = FileInputStream(fileDescriptor.fileDescriptor)
-        val fileChannel = inputStream.channel
-        val startOffset = fileDescriptor.startOffset
-        val declaredLength = fileDescriptor.declaredLength
-        return fileChannel.map(FileChannel.MapMode.READ_ONLY, startOffset, declaredLength)
-    }
-
-    // 좌표 변환
-    fun convertPos(posX: ArrayList<Float>, posY: ArrayList<Float>): ArrayList<ArrayList<Float>>{
-        var maxX = posX.maxOrNull()
-        var minX = posX.minOrNull()
-        var cenX = (maxX!! + minX!!) / 2
-        var lenX = (maxX!! - minX!!)
-
-        var maxY = posY.maxOrNull()
-        var minY = posY.minOrNull()
-        var cenY = (maxY!! + minY!!) / 2
-        var lenY = (maxY!! - minY!!)
-
-        var len = if (lenX > lenY) lenX else lenY
-
-        var resizeXY = ArrayList<ArrayList<Float>>()
-
-        for (i in 0 until posX.size){
-            var resizeX = (posX[i] - cenX) / len
-            var resizeY = (cenY - posY[i]) / len
-            resizeXY.add(arrayListOf(resizeX, resizeY))
-        }
-
-        // interpolate 50개로
-        var interpolateXY = ArrayList<ArrayList<Float>>()
-        for (i in 0 .. 48) {
-            var newt = (resizeXY.size-1) * i / 49F
-            interpolateXY.add(interpolateArray(resizeXY, newt))
-
-        }
-        interpolateXY.add(resizeXY[resizeXY.size - 1])
-
-        return interpolateXY
-    }
-
-    // linear interpolate 계산
-    fun interpolate(a:Float, b:Float, f:Float):Float{
-        return a + (b-a) * f
-    }
-
-    // posXY 받으면 t에 해당하는 lineer interpolate 좌표값 반환
-    fun interpolateArray(posXY: ArrayList<ArrayList<Float>>, f: Float): ArrayList<Float>{
-        var fInt = f.toInt()
-        var a = posXY[fInt]
-        var b = posXY[fInt + 1]
-
-        var newX = interpolate(a[0], b[0], f-fInt)
-        var newY = interpolate(a[1], b[1], f-fInt)
-
-        return arrayListOf(newX, newY)
-    }
-
-    // 한글 나누는 함수
-    fun divideHangeul(ch: Char): String{
-        val uniBase: Int = 0xAC00
-        val uniLast: Int = 0xD7AF
-        val mOnsetTbl = "ㄱㄲㄴㄷㄸㄹㅁㅂㅃㅅㅆㅇㅈㅉㅊㅋㅌㅍㅎ"
-        val mNucleusTbl = "ㅏㅐㅑㅒㅓㅔㅕㅖㅗㅘㅙㅚㅛㅜㅝㅞㅟㅠㅡㅢㅣ"
-        val mCodaTbl = " ㄱㄲㄳㄴㄵㄶㄷㄹㄺㄻㄼㄽㄾㄿㅀㅁㅂㅄㅅㅆㅇㅈㅊㅋㅌㅍㅎ"
-        var mOnset = " "
-        var mNucleus = " "
-        var mCoda = " "
-        var fullString = ""
-
-        val intCh = ch.toInt()
-
-        // 들어온 문자 한글 아닐시에
-        if (intCh < uniBase  || intCh > uniLast) {
-            fullString = mOnset + mNucleus + mCoda
-            return fullString
-        }
-
-        var iUniCode = intCh - uniBase
-        val iOnsetIdx = iUniCode / (21 * 28)
-        iUniCode = iUniCode % (21 * 28)
-        val iNucleusIdx = iUniCode / 28
-        val iCodaIdx = iUniCode % 28
-
-        mOnset = mOnsetTbl[iOnsetIdx].toString()
-        mNucleus = mNucleusTbl[iNucleusIdx].toString()
-        mCoda = mCodaTbl[iCodaIdx].toString()
-
-
-        //쌍자음 등 다시 구분
-        when (mOnset){
-            "ㄲ" -> { mOnset = "ㄱㄱ" }
-            "ㄸ" -> { mOnset = "ㄷㄷ" }
-            "ㅆ" -> { mOnset = "ㅅㅅ" }
-            "ㅃ" -> { mOnset = "ㅂㅂ" }
-            "ㅉ" -> { mOnset = "ㅈㅈ"}
-        }
-        when (mNucleus) {
-            "ㅘ" -> { mNucleus = "ㅗㅏ" }
-            "ㅙ" -> { mNucleus = "ㅗㅐ" }
-            "ㅚ" -> { mNucleus = "ㅗㅣ" }
-            "ㅝ" -> { mNucleus = "ㅜㅓ" }
-            "ㅞ" -> { mNucleus = "ㅜㅔ" }
-            "ㅟ" -> { mNucleus = "ㅜㅣ" }
-            "ㅢ" -> { mNucleus = "ㅡㅣ" }
-        }
-        when (mCoda){
-            "ㄲ" -> { mCoda = "ㄱㄱ" }
-            "ㄳ" -> { mCoda = "ㄱㅅ" }
-            "ㄵ" -> { mCoda = "ㄴㅈ" }
-            "ㄶ" -> { mCoda = "ㄴㅎ" }
-            "ㄺ" -> { mCoda = "ㄹㄱ" }
-            "ㄻ" -> { mCoda = "ㄹㅁ" }
-            "ㄽ" -> { mCoda = "ㄹㅅ" }
-            "ㄾ" -> { mCoda = "ㄹㅌ" }
-            "ㄿ" -> { mCoda = "ㄹㅍ" }
-            "ㅀ" -> { mCoda = "ㄹㅎ" }
-            "ㅄ" -> { mCoda = "ㅂㅅ" }
-            "ㅆ" -> { mCoda = "ㅅㅅ" }
-        }
-
-        fullString = mOnset + mNucleus + mCoda
-        return fullString
-
-    }
-
-
-
-    companion object {
-        private const val FLOAT_TYPE_SIZE = 4
     }
 
 }

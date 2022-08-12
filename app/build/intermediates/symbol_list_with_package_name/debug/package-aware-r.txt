@@ -2145,6 +2145,7 @@ id staticLayout
 id staticPostLayout
 id stop
 id stretch
+id stroke_check_button
 id sub_clear_button
 id sub_draw_view
 id sub_edit_text
@@ -2179,8 +2180,6 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
-id text_check_button
-id text_delete_button
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
