@@ -1,10 +1,15 @@
 <resources>
-  <string name="app_name" translatable="false">Hangeul classifier</string>
-  <string name="clear_button_text" translatable="false">지우기</string>
-  <string name="edit_text_placeholder" translatable="false">1. 작성할 문자를 입력하세요</string>
-  <string name="prediction_text_placeholder" translatable="false">2. 캔버스에 한글을 써주세요</string>
-  <string name="classification_error_message" translatable="false">Error classifying drawing: %s</string>
-  <string name="test_message" translatable="false">결과</string>
-  <string name="return_button_text" translatable="false">Return</string>
-  <string name="sub_text" translatable="false">2. 캔버스에 입력한 글자를 써주세요</string>
+    <string name="app_name">HangeulClassifier</string>
+    <string name="clear_button_text" translatable="false">지우기</string>
+    <string name="edit_text_placeholder" translatable="false">1. 작성할 문자를 입력하세요</string>
+    <string name="prediction_text_placeholder" translatable="false">2. 캔버스에 한글을 써주세요</string>
+    <string name="classification_error_message" translatable="false">Error classifying drawing: %s</string>
+    <string name="test_message" translatable="false">결과</string>
+    <string name="return_button_text" translatable="false">Return</string>
+    <string name="sub_text" translatable="false">2. 캔버스에 입력한 글자를 써주세요</string>
+    <string name="compare_button">체크</string>
+    <string name="random_check_button">랜덤 체크</string>
+    <string name="check_example_text">문제:</string>
+    <string name="check_predicted_text">위 한글을 캔버스에 써주세요</string>
+    <string name="check_score_text">점수:</string>
 </resources>

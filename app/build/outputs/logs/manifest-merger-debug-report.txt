@@ -1,236 +1,276 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/yoondohyun/Desktop/start/app/src/main/AndroidManifest.xml:2:1-34:12
-INJECTED from /Users/yoondohyun/Desktop/start/app/src/main/AndroidManifest.xml:2:1-34:12
-INJECTED from /Users/yoondohyun/Desktop/start/app/src/main/AndroidManifest.xml:2:1-34:12
-INJECTED from /Users/yoondohyun/Desktop/start/app/src/main/AndroidManifest.xml:2:1-34:12
-MERGED from [com.github.divyanshub024:AndroidDraw:v0.1] /Users/yoondohyun/.gradle/caches/transforms-3/737ffb93e82989ac05a2567a2123b58b/transformed/jetified-AndroidDraw-v0.1/AndroidManifest.xml:2:1-17:12
-MERGED from [com.google.android.material:material:1.4.0] /Users/yoondohyun/.gradle/caches/transforms-3/0552d9149fa043099640c367a47d9974/transformed/material-1.4.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/yoondohyun/.gradle/caches/transforms-3/a19b63ca35dc49793e33d526381d29dc/transformed/constraintlayout-2.0.4/AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.appcompat:appcompat:1.3.0] /Users/yoondohyun/.gradle/caches/transforms-3/cd8bef0f27508bf80cb2c8bd53164c24/transformed/appcompat-1.3.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.core:core-ktx:1.5.0] /Users/yoondohyun/.gradle/caches/transforms-3/33d5d4ef4e1497bb8bb02dc5e2095921/transformed/jetified-core-ktx-1.5.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-tasks:17.2.1] /Users/yoondohyun/.gradle/caches/transforms-3/72ca0e44bbb154d3d8ca78ef421638b4/transformed/jetified-play-services-tasks-17.2.1/AndroidManifest.xml:2:1-9:12
-MERGED from [org.tensorflow:tensorflow-lite:2.5.0] /Users/yoondohyun/.gradle/caches/transforms-3/1f51bd81975ae2b3d50fe0c9a3264aaf/transformed/jetified-tensorflow-lite-2.5.0/AndroidManifest.xml:2:1-12:12
-MERGED from [com.google.android.gms:play-services-basement:17.6.0] /Users/yoondohyun/.gradle/caches/transforms-3/d1a8a0c9a4566d7f3db4d02333df937b/transformed/jetified-play-services-basement-17.6.0/AndroidManifest.xml:17:1-28:12
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/68c317b06654785a970d20a88b39e16e/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.fragment:fragment:1.3.4] /Users/yoondohyun/.gradle/caches/transforms-3/39e18d3f4595fcf525abdd5d1ab05805/transformed/fragment-1.3.4/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.activity:activity:1.2.3] /Users/yoondohyun/.gradle/caches/transforms-3/1a017155852d7c621f7aef59ce5f821d/transformed/jetified-activity-1.2.3/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.appcompat:appcompat-resources:1.3.0] /Users/yoondohyun/.gradle/caches/transforms-3/3b7774e2cfab4e83e03f9c3d5d4fae76/transformed/jetified-appcompat-resources-1.3.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/cf3d5a6daa6173a23b12e8f47a33bddd/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/yoondohyun/.gradle/caches/transforms-3/517be9ae9797033a039f03fb9fa627b9/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/81a555400bc43be8674aa0019bb3be50/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.transition:transition:1.2.0] /Users/yoondohyun/.gradle/caches/transforms-3/16c193d9e673baed0c888ec7c082bd53/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/yoondohyun/.gradle/caches/transforms-3/7e98b494f4aa2bcfc25d2349332806d7/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/yoondohyun/.gradle/caches/transforms-3/62003c14bb08009174e2dc740743dff0/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/ae26291ce1633716d0a1a5364604ba19/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/7b0503f05a8ca28ffc7d54a2a6cc76ad/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/de05458e66280efb4c1e49f7edcbaedb/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/yoondohyun/.gradle/caches/transforms-3/a4af04c04f20475dcb31c352d8811e98/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.customview:customview:1.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/4393ef93d5fe2879d7d3f0f4dfcc4856/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core:1.5.0] /Users/yoondohyun/.gradle/caches/transforms-3/967ed3d771449d2f29d32cbe6c23459b/transformed/core-1.5.0/AndroidManifest.xml:17:1-26:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/61fb89688f1970c6ec8fbd6347687db3/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/yoondohyun/.gradle/caches/transforms-3/28e73874cdc8310df09f11b83d6dd529/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/yoondohyun/.gradle/caches/transforms-3/13421580f8a6fd0901602d298bf6e562/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/yoondohyun/.gradle/caches/transforms-3/9f4e0e004913cf581bc661cdb9c3fcb9/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/yoondohyun/.gradle/caches/transforms-3/58958267902418bcb8862224a8d29846/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.cardview:cardview:1.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/95ad0f681b0fdd07404e8272a6d06331/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/yoondohyun/.gradle/caches/transforms-3/153b619d2f821b70273797397e8454f8/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.tracing:tracing:1.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/92b7817c91fe025c57fe84de90c73f42/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/60c2a8b368c08a61b22b62b142979305/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/yoondohyun/.gradle/caches/transforms-3/2d5718f10ccf2c23bb7634db0c8d7937/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/yoondohyun/.gradle/caches/transforms-3/774f0b0fd03945f9b76ceead5097f58d/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/6b22de414bf238a6ea0869398f209663/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/4afacc121ffdb3cccfb15fd042a04786/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/3fe1a5106d9e8c9c771785f5b7d88483/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.print:print:1.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/bdae45cd2fa20f794055b241411de5dd/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/f2764d0c5574e78c54e0eafe13ca1366/transformed/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
-INJECTED from /Users/yoondohyun/Desktop/start/app/src/main/AndroidManifest.xml:2:1-34:12
-INJECTED from /Users/yoondohyun/Desktop/start/app/src/main/AndroidManifest.xml:2:1-34:12
-INJECTED from /Users/yoondohyun/Desktop/start/app/src/main/AndroidManifest.xml:2:1-34:12
+ADDED from /Users/yoondohyun/Desktop/HangeulClassifier/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /Users/yoondohyun/Desktop/HangeulClassifier/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /Users/yoondohyun/Desktop/HangeulClassifier/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /Users/yoondohyun/Desktop/HangeulClassifier/app/src/main/AndroidManifest.xml:2:1-30:12
+MERGED from [androidx.core:core-ktx:1.7.0] /Users/yoondohyun/.gradle/caches/transforms-3/003ab52e95171c798597fedae3fb53aa/transformed/jetified-core-ktx-1.7.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.material:material:1.6.1] /Users/yoondohyun/.gradle/caches/transforms-3/6ce448007f34aef48ef2f96b764046df/transformed/material-1.6.1/AndroidManifest.xml:17:1-26:12
+MERGED from [com.github.divyanshub024:AndroidDraw:v0.1] /Users/yoondohyun/.gradle/caches/transforms-3/91a7a1c05c75eb968a71dda83928fd61/transformed/jetified-AndroidDraw-v0.1/AndroidManifest.xml:2:1-17:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/yoondohyun/.gradle/caches/transforms-3/48b79fa533ffcdb2023e73518416f449/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.4.2] /Users/yoondohyun/.gradle/caches/transforms-3/e8bb4d4e504c873b93148be3c0e5ac10/transformed/appcompat-1.4.2/AndroidManifest.xml:17:1-24:12
+MERGED from [org.tensorflow:tensorflow-lite:2.5.0] /Users/yoondohyun/.gradle/caches/transforms-3/747dfbf6def23d4eaf85c55725acb93f/transformed/jetified-tensorflow-lite-2.5.0/AndroidManifest.xml:2:1-12:12
+MERGED from [com.google.android.gms:play-services-tasks:17.2.1] /Users/yoondohyun/.gradle/caches/transforms-3/31965a6006368139459abd12aad8cf38/transformed/jetified-play-services-tasks-17.2.1/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/c7e92c7557d4c1b82615a72e23b0c3ec/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:17.6.0] /Users/yoondohyun/.gradle/caches/transforms-3/cd82de0a9476278c1f61bfeba8c703b6/transformed/jetified-play-services-basement-17.6.0/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/yoondohyun/.gradle/caches/transforms-3/79485a6d809c33e5702041e985e36185/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.4] /Users/yoondohyun/.gradle/caches/transforms-3/db78fabbb32365a81d614e3f847d55dd/transformed/jetified-activity-1.2.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.4.2] /Users/yoondohyun/.gradle/caches/transforms-3/99913301a21a514c15c0103fee6454ae/transformed/jetified-appcompat-resources-1.4.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/5d6b4d17c5cd533bb28735e3e1d2e6b7/transformed/jetified-emoji2-views-helper-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/c79e7fda99473cadbe43731081db6d06/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/yoondohyun/.gradle/caches/transforms-3/271c897c367ec42799066a7a3911e1c9/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/yoondohyun/.gradle/caches/transforms-3/0101e453ea3b5ea93ad8f3e8a027dddf/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/19bc81a464e81fc23e05aa509ce5e0c7/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/yoondohyun/.gradle/caches/transforms-3/eaa8dce2c2e367390ab8eca15b1d1e2e/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/yoondohyun/.gradle/caches/transforms-3/2815b28afbc07a68d4edfc568b126e7d/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/yoondohyun/.gradle/caches/transforms-3/2ddc990fb47ed656b0dd3b3f328cd0f1/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/5f1b51dd7625160d516a2ee38da7161a/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/c3b3741cb5446cc3a182935c35510182/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/b304fe979c511bf9f7a668207e881c80/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/yoondohyun/.gradle/caches/transforms-3/6d8f7dc9f2e796bdeb05dd1b9a0499a1/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] /Users/yoondohyun/.gradle/caches/transforms-3/cc5c206eb498cb41d2d805f87fec73a0/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.7.0] /Users/yoondohyun/.gradle/caches/transforms-3/ece84e85ba4b9c24bc9decb30105a436/transformed/core-1.7.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/3cc336b9fe518b0c5c9493aac5366f5f/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/yoondohyun/.gradle/caches/transforms-3/e541c6f55311f243c0405a8680f46982/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/yoondohyun/.gradle/caches/transforms-3/19cce34a4d301ab8bd45de5d1ee6dc21/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/yoondohyun/.gradle/caches/transforms-3/5a454cd92742c7dd483f8670b8c55797/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/c0b3725894530d8dc6952143e72fa2f3/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/yoondohyun/.gradle/caches/transforms-3/83aa7c4594b6116906e72051fbeb4c27/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/yoondohyun/.gradle/caches/transforms-3/8f0157abd83cc7cf04afe8d0c4d96061/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/be3d03d50989949933f58267023dba23/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/d9c8d73ac8ac9f2c5fab5629b1a6e276/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/38d7efb1eabb7520f355cfcc2bdefd14/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/yoondohyun/.gradle/caches/transforms-3/310c0c726c27f2f6106b90e441c94bc2/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /Users/yoondohyun/.gradle/caches/transforms-3/a182a32e64915a9b645a617b16b7f440/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/yoondohyun/.gradle/caches/transforms-3/6d16e94b43d68d6fc1e9b6e2256690e0/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/1e4b9110109489f68400d4613196ca56/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/0b1739947e4005404839498a84d6f962/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/026716155719664d95548ffb8b5df5e6/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/8a5f56b1c038693c9e1c9635c2f124c1/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/yoondohyun/.gradle/caches/transforms-3/7f658083dbd905d59c097625d46d7025/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/yoondohyun/Desktop/HangeulClassifier/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /Users/yoondohyun/Desktop/HangeulClassifier/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /Users/yoondohyun/Desktop/HangeulClassifier/app/src/main/AndroidManifest.xml:2:1-30:12
 	package
-		ADDED from /Users/yoondohyun/Desktop/start/app/src/main/AndroidManifest.xml:4:5-59
-		INJECTED from /Users/yoondohyun/Desktop/start/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/yoondohyun/Desktop/start/app/src/main/AndroidManifest.xml
+		ADDED from /Users/yoondohyun/Desktop/HangeulClassifier/app/src/main/AndroidManifest.xml:4:5-44
+		INJECTED from /Users/yoondohyun/Desktop/HangeulClassifier/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/yoondohyun/Desktop/HangeulClassifier/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/yoondohyun/Desktop/start/app/src/main/AndroidManifest.xml
-		ADDED from /Users/yoondohyun/Desktop/start/app/src/main/AndroidManifest.xml:2:1-34:12
-		INJECTED from /Users/yoondohyun/Desktop/start/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/yoondohyun/Desktop/HangeulClassifier/app/src/main/AndroidManifest.xml
+		ADDED from /Users/yoondohyun/Desktop/HangeulClassifier/app/src/main/AndroidManifest.xml:2:1-30:12
+		INJECTED from /Users/yoondohyun/Desktop/HangeulClassifier/app/src/main/AndroidManifest.xml
 	xmlns:tools
-		ADDED from /Users/yoondohyun/Desktop/start/app/src/main/AndroidManifest.xml:3:5-51
+		ADDED from /Users/yoondohyun/Desktop/HangeulClassifier/app/src/main/AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from /Users/yoondohyun/Desktop/start/app/src/main/AndroidManifest.xml
-		ADDED from /Users/yoondohyun/Desktop/start/app/src/main/AndroidManifest.xml:2:1-34:12
-		INJECTED from /Users/yoondohyun/Desktop/start/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/yoondohyun/Desktop/HangeulClassifier/app/src/main/AndroidManifest.xml
+		ADDED from /Users/yoondohyun/Desktop/HangeulClassifier/app/src/main/AndroidManifest.xml:2:1-30:12
+		INJECTED from /Users/yoondohyun/Desktop/HangeulClassifier/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/yoondohyun/Desktop/start/app/src/main/AndroidManifest.xml:2:11-69
-uses-sdk
-ADDED from /Users/yoondohyun/Desktop/start/app/src/main/AndroidManifest.xml:6:5-17
-INJECTED from /Users/yoondohyun/Desktop/start/app/src/main/AndroidManifest.xml:6:5-17
-INJECTED from /Users/yoondohyun/Desktop/start/app/src/main/AndroidManifest.xml:6:5-17
-MERGED from [com.github.divyanshub024:AndroidDraw:v0.1] /Users/yoondohyun/.gradle/caches/transforms-3/737ffb93e82989ac05a2567a2123b58b/transformed/jetified-AndroidDraw-v0.1/AndroidManifest.xml:7:5-9:41
-MERGED from [com.github.divyanshub024:AndroidDraw:v0.1] /Users/yoondohyun/.gradle/caches/transforms-3/737ffb93e82989ac05a2567a2123b58b/transformed/jetified-AndroidDraw-v0.1/AndroidManifest.xml:7:5-9:41
-MERGED from [com.google.android.material:material:1.4.0] /Users/yoondohyun/.gradle/caches/transforms-3/0552d9149fa043099640c367a47d9974/transformed/material-1.4.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.material:material:1.4.0] /Users/yoondohyun/.gradle/caches/transforms-3/0552d9149fa043099640c367a47d9974/transformed/material-1.4.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/yoondohyun/.gradle/caches/transforms-3/a19b63ca35dc49793e33d526381d29dc/transformed/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/yoondohyun/.gradle/caches/transforms-3/a19b63ca35dc49793e33d526381d29dc/transformed/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.appcompat:appcompat:1.3.0] /Users/yoondohyun/.gradle/caches/transforms-3/cd8bef0f27508bf80cb2c8bd53164c24/transformed/appcompat-1.3.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat:1.3.0] /Users/yoondohyun/.gradle/caches/transforms-3/cd8bef0f27508bf80cb2c8bd53164c24/transformed/appcompat-1.3.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core-ktx:1.5.0] /Users/yoondohyun/.gradle/caches/transforms-3/33d5d4ef4e1497bb8bb02dc5e2095921/transformed/jetified-core-ktx-1.5.0/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.core:core-ktx:1.5.0] /Users/yoondohyun/.gradle/caches/transforms-3/33d5d4ef4e1497bb8bb02dc5e2095921/transformed/jetified-core-ktx-1.5.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.android.gms:play-services-tasks:17.2.1] /Users/yoondohyun/.gradle/caches/transforms-3/72ca0e44bbb154d3d8ca78ef421638b4/transformed/jetified-play-services-tasks-17.2.1/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-tasks:17.2.1] /Users/yoondohyun/.gradle/caches/transforms-3/72ca0e44bbb154d3d8ca78ef421638b4/transformed/jetified-play-services-tasks-17.2.1/AndroidManifest.xml:5:5-44
-MERGED from [org.tensorflow:tensorflow-lite:2.5.0] /Users/yoondohyun/.gradle/caches/transforms-3/1f51bd81975ae2b3d50fe0c9a3264aaf/transformed/jetified-tensorflow-lite-2.5.0/AndroidManifest.xml:7:5-8:41
-MERGED from [org.tensorflow:tensorflow-lite:2.5.0] /Users/yoondohyun/.gradle/caches/transforms-3/1f51bd81975ae2b3d50fe0c9a3264aaf/transformed/jetified-tensorflow-lite-2.5.0/AndroidManifest.xml:7:5-8:41
-MERGED from [com.google.android.gms:play-services-basement:17.6.0] /Users/yoondohyun/.gradle/caches/transforms-3/d1a8a0c9a4566d7f3db4d02333df937b/transformed/jetified-play-services-basement-17.6.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:17.6.0] /Users/yoondohyun/.gradle/caches/transforms-3/d1a8a0c9a4566d7f3db4d02333df937b/transformed/jetified-play-services-basement-17.6.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/68c317b06654785a970d20a88b39e16e/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/68c317b06654785a970d20a88b39e16e/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.3.4] /Users/yoondohyun/.gradle/caches/transforms-3/39e18d3f4595fcf525abdd5d1ab05805/transformed/fragment-1.3.4/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.3.4] /Users/yoondohyun/.gradle/caches/transforms-3/39e18d3f4595fcf525abdd5d1ab05805/transformed/fragment-1.3.4/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.2.3] /Users/yoondohyun/.gradle/caches/transforms-3/1a017155852d7c621f7aef59ce5f821d/transformed/jetified-activity-1.2.3/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.2.3] /Users/yoondohyun/.gradle/caches/transforms-3/1a017155852d7c621f7aef59ce5f821d/transformed/jetified-activity-1.2.3/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.3.0] /Users/yoondohyun/.gradle/caches/transforms-3/3b7774e2cfab4e83e03f9c3d5d4fae76/transformed/jetified-appcompat-resources-1.3.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.3.0] /Users/yoondohyun/.gradle/caches/transforms-3/3b7774e2cfab4e83e03f9c3d5d4fae76/transformed/jetified-appcompat-resources-1.3.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/cf3d5a6daa6173a23b12e8f47a33bddd/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/cf3d5a6daa6173a23b12e8f47a33bddd/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/yoondohyun/.gradle/caches/transforms-3/517be9ae9797033a039f03fb9fa627b9/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/yoondohyun/.gradle/caches/transforms-3/517be9ae9797033a039f03fb9fa627b9/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/81a555400bc43be8674aa0019bb3be50/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/81a555400bc43be8674aa0019bb3be50/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.transition:transition:1.2.0] /Users/yoondohyun/.gradle/caches/transforms-3/16c193d9e673baed0c888ec7c082bd53/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.transition:transition:1.2.0] /Users/yoondohyun/.gradle/caches/transforms-3/16c193d9e673baed0c888ec7c082bd53/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/yoondohyun/.gradle/caches/transforms-3/7e98b494f4aa2bcfc25d2349332806d7/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/yoondohyun/.gradle/caches/transforms-3/7e98b494f4aa2bcfc25d2349332806d7/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/yoondohyun/.gradle/caches/transforms-3/62003c14bb08009174e2dc740743dff0/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/yoondohyun/.gradle/caches/transforms-3/62003c14bb08009174e2dc740743dff0/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/ae26291ce1633716d0a1a5364604ba19/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/ae26291ce1633716d0a1a5364604ba19/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/7b0503f05a8ca28ffc7d54a2a6cc76ad/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/7b0503f05a8ca28ffc7d54a2a6cc76ad/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/de05458e66280efb4c1e49f7edcbaedb/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/de05458e66280efb4c1e49f7edcbaedb/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/yoondohyun/.gradle/caches/transforms-3/a4af04c04f20475dcb31c352d8811e98/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/yoondohyun/.gradle/caches/transforms-3/a4af04c04f20475dcb31c352d8811e98/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.customview:customview:1.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/4393ef93d5fe2879d7d3f0f4dfcc4856/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/4393ef93d5fe2879d7d3f0f4dfcc4856/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.5.0] /Users/yoondohyun/.gradle/caches/transforms-3/967ed3d771449d2f29d32cbe6c23459b/transformed/core-1.5.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.5.0] /Users/yoondohyun/.gradle/caches/transforms-3/967ed3d771449d2f29d32cbe6c23459b/transformed/core-1.5.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/61fb89688f1970c6ec8fbd6347687db3/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/61fb89688f1970c6ec8fbd6347687db3/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/yoondohyun/.gradle/caches/transforms-3/28e73874cdc8310df09f11b83d6dd529/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/yoondohyun/.gradle/caches/transforms-3/28e73874cdc8310df09f11b83d6dd529/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/yoondohyun/.gradle/caches/transforms-3/13421580f8a6fd0901602d298bf6e562/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/yoondohyun/.gradle/caches/transforms-3/13421580f8a6fd0901602d298bf6e562/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/yoondohyun/.gradle/caches/transforms-3/9f4e0e004913cf581bc661cdb9c3fcb9/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/yoondohyun/.gradle/caches/transforms-3/9f4e0e004913cf581bc661cdb9c3fcb9/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/yoondohyun/.gradle/caches/transforms-3/58958267902418bcb8862224a8d29846/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/yoondohyun/.gradle/caches/transforms-3/58958267902418bcb8862224a8d29846/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cardview:cardview:1.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/95ad0f681b0fdd07404e8272a6d06331/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/95ad0f681b0fdd07404e8272a6d06331/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/yoondohyun/.gradle/caches/transforms-3/153b619d2f821b70273797397e8454f8/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/yoondohyun/.gradle/caches/transforms-3/153b619d2f821b70273797397e8454f8/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.tracing:tracing:1.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/92b7817c91fe025c57fe84de90c73f42/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.tracing:tracing:1.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/92b7817c91fe025c57fe84de90c73f42/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/60c2a8b368c08a61b22b62b142979305/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/60c2a8b368c08a61b22b62b142979305/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/yoondohyun/.gradle/caches/transforms-3/2d5718f10ccf2c23bb7634db0c8d7937/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/yoondohyun/.gradle/caches/transforms-3/2d5718f10ccf2c23bb7634db0c8d7937/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/yoondohyun/.gradle/caches/transforms-3/774f0b0fd03945f9b76ceead5097f58d/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/yoondohyun/.gradle/caches/transforms-3/774f0b0fd03945f9b76ceead5097f58d/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/6b22de414bf238a6ea0869398f209663/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/6b22de414bf238a6ea0869398f209663/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/4afacc121ffdb3cccfb15fd042a04786/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/4afacc121ffdb3cccfb15fd042a04786/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/3fe1a5106d9e8c9c771785f5b7d88483/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/3fe1a5106d9e8c9c771785f5b7d88483/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/bdae45cd2fa20f794055b241411de5dd/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/bdae45cd2fa20f794055b241411de5dd/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/f2764d0c5574e78c54e0eafe13ca1366/transformed/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/f2764d0c5574e78c54e0eafe13ca1366/transformed/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
-INJECTED from /Users/yoondohyun/Desktop/start/app/src/main/AndroidManifest.xml:6:5-17
-INJECTED from /Users/yoondohyun/Desktop/start/app/src/main/AndroidManifest.xml:6:5-17
-	android:targetSdkVersion
-		INJECTED from /Users/yoondohyun/Desktop/start/app/src/main/AndroidManifest.xml
-		ADDED from /Users/yoondohyun/Desktop/start/app/src/main/AndroidManifest.xml:6:5-17
-		INJECTED from /Users/yoondohyun/Desktop/start/app/src/main/AndroidManifest.xml
-	android:minSdkVersion
-		INJECTED from /Users/yoondohyun/Desktop/start/app/src/main/AndroidManifest.xml
-		ADDED from /Users/yoondohyun/Desktop/start/app/src/main/AndroidManifest.xml:6:5-17
-		MERGED from /Users/yoondohyun/Desktop/start/app/src/main/AndroidManifest.xml:6:5-17
-		INJECTED from /Users/yoondohyun/Desktop/start/app/src/main/AndroidManifest.xml
+		ADDED from /Users/yoondohyun/Desktop/HangeulClassifier/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /Users/yoondohyun/Desktop/start/app/src/main/AndroidManifest.xml:8:5-32:19
-MERGED from [com.github.divyanshub024:AndroidDraw:v0.1] /Users/yoondohyun/.gradle/caches/transforms-3/737ffb93e82989ac05a2567a2123b58b/transformed/jetified-AndroidDraw-v0.1/AndroidManifest.xml:11:5-15:19
-MERGED from [com.github.divyanshub024:AndroidDraw:v0.1] /Users/yoondohyun/.gradle/caches/transforms-3/737ffb93e82989ac05a2567a2123b58b/transformed/jetified-AndroidDraw-v0.1/AndroidManifest.xml:11:5-15:19
-MERGED from [com.google.android.material:material:1.4.0] /Users/yoondohyun/.gradle/caches/transforms-3/0552d9149fa043099640c367a47d9974/transformed/material-1.4.0/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.material:material:1.4.0] /Users/yoondohyun/.gradle/caches/transforms-3/0552d9149fa043099640c367a47d9974/transformed/material-1.4.0/AndroidManifest.xml:22:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/yoondohyun/.gradle/caches/transforms-3/a19b63ca35dc49793e33d526381d29dc/transformed/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/yoondohyun/.gradle/caches/transforms-3/a19b63ca35dc49793e33d526381d29dc/transformed/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
-MERGED from [com.google.android.gms:play-services-tasks:17.2.1] /Users/yoondohyun/.gradle/caches/transforms-3/72ca0e44bbb154d3d8ca78ef421638b4/transformed/jetified-play-services-tasks-17.2.1/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-tasks:17.2.1] /Users/yoondohyun/.gradle/caches/transforms-3/72ca0e44bbb154d3d8ca78ef421638b4/transformed/jetified-play-services-tasks-17.2.1/AndroidManifest.xml:7:5-20
-MERGED from [org.tensorflow:tensorflow-lite:2.5.0] /Users/yoondohyun/.gradle/caches/transforms-3/1f51bd81975ae2b3d50fe0c9a3264aaf/transformed/jetified-tensorflow-lite-2.5.0/AndroidManifest.xml:10:5-20
-MERGED from [org.tensorflow:tensorflow-lite:2.5.0] /Users/yoondohyun/.gradle/caches/transforms-3/1f51bd81975ae2b3d50fe0c9a3264aaf/transformed/jetified-tensorflow-lite-2.5.0/AndroidManifest.xml:10:5-20
-MERGED from [com.google.android.gms:play-services-basement:17.6.0] /Users/yoondohyun/.gradle/caches/transforms-3/d1a8a0c9a4566d7f3db4d02333df937b/transformed/jetified-play-services-basement-17.6.0/AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-basement:17.6.0] /Users/yoondohyun/.gradle/caches/transforms-3/d1a8a0c9a4566d7f3db4d02333df937b/transformed/jetified-play-services-basement-17.6.0/AndroidManifest.xml:22:5-26:19
-MERGED from [androidx.core:core:1.5.0] /Users/yoondohyun/.gradle/caches/transforms-3/967ed3d771449d2f29d32cbe6c23459b/transformed/core-1.5.0/AndroidManifest.xml:24:5-89
-MERGED from [androidx.core:core:1.5.0] /Users/yoondohyun/.gradle/caches/transforms-3/967ed3d771449d2f29d32cbe6c23459b/transformed/core-1.5.0/AndroidManifest.xml:24:5-89
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/yoondohyun/.gradle/caches/transforms-3/153b619d2f821b70273797397e8454f8/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/yoondohyun/.gradle/caches/transforms-3/153b619d2f821b70273797397e8454f8/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
-	android:requestLegacyExternalStorage
-		ADDED from /Users/yoondohyun/Desktop/start/app/src/main/AndroidManifest.xml:12:9-52
+ADDED from /Users/yoondohyun/Desktop/HangeulClassifier/app/src/main/AndroidManifest.xml:6:5-28:19
+MERGED from [com.google.android.material:material:1.6.1] /Users/yoondohyun/.gradle/caches/transforms-3/6ce448007f34aef48ef2f96b764046df/transformed/material-1.6.1/AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.material:material:1.6.1] /Users/yoondohyun/.gradle/caches/transforms-3/6ce448007f34aef48ef2f96b764046df/transformed/material-1.6.1/AndroidManifest.xml:24:5-20
+MERGED from [com.github.divyanshub024:AndroidDraw:v0.1] /Users/yoondohyun/.gradle/caches/transforms-3/91a7a1c05c75eb968a71dda83928fd61/transformed/jetified-AndroidDraw-v0.1/AndroidManifest.xml:11:5-15:19
+MERGED from [com.github.divyanshub024:AndroidDraw:v0.1] /Users/yoondohyun/.gradle/caches/transforms-3/91a7a1c05c75eb968a71dda83928fd61/transformed/jetified-AndroidDraw-v0.1/AndroidManifest.xml:11:5-15:19
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/yoondohyun/.gradle/caches/transforms-3/48b79fa533ffcdb2023e73518416f449/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/yoondohyun/.gradle/caches/transforms-3/48b79fa533ffcdb2023e73518416f449/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [org.tensorflow:tensorflow-lite:2.5.0] /Users/yoondohyun/.gradle/caches/transforms-3/747dfbf6def23d4eaf85c55725acb93f/transformed/jetified-tensorflow-lite-2.5.0/AndroidManifest.xml:10:5-20
+MERGED from [org.tensorflow:tensorflow-lite:2.5.0] /Users/yoondohyun/.gradle/caches/transforms-3/747dfbf6def23d4eaf85c55725acb93f/transformed/jetified-tensorflow-lite-2.5.0/AndroidManifest.xml:10:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.2.1] /Users/yoondohyun/.gradle/caches/transforms-3/31965a6006368139459abd12aad8cf38/transformed/jetified-play-services-tasks-17.2.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.2.1] /Users/yoondohyun/.gradle/caches/transforms-3/31965a6006368139459abd12aad8cf38/transformed/jetified-play-services-tasks-17.2.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.6.0] /Users/yoondohyun/.gradle/caches/transforms-3/cd82de0a9476278c1f61bfeba8c703b6/transformed/jetified-play-services-basement-17.6.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.6.0] /Users/yoondohyun/.gradle/caches/transforms-3/cd82de0a9476278c1f61bfeba8c703b6/transformed/jetified-play-services-basement-17.6.0/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/c79e7fda99473cadbe43731081db6d06/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/c79e7fda99473cadbe43731081db6d06/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.core:core:1.7.0] /Users/yoondohyun/.gradle/caches/transforms-3/ece84e85ba4b9c24bc9decb30105a436/transformed/core-1.7.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.7.0] /Users/yoondohyun/.gradle/caches/transforms-3/ece84e85ba4b9c24bc9decb30105a436/transformed/core-1.7.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/yoondohyun/.gradle/caches/transforms-3/83aa7c4594b6116906e72051fbeb4c27/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/yoondohyun/.gradle/caches/transforms-3/83aa7c4594b6116906e72051fbeb4c27/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/yoondohyun/.gradle/caches/transforms-3/8f0157abd83cc7cf04afe8d0c4d96061/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/yoondohyun/.gradle/caches/transforms-3/8f0157abd83cc7cf04afe8d0c4d96061/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/be3d03d50989949933f58267023dba23/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/be3d03d50989949933f58267023dba23/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.5.0] /Users/yoondohyun/.gradle/caches/transforms-3/967ed3d771449d2f29d32cbe6c23459b/transformed/core-1.5.0/AndroidManifest.xml:24:18-86
+		ADDED from [androidx.core:core:1.7.0] /Users/yoondohyun/.gradle/caches/transforms-3/ece84e85ba4b9c24bc9decb30105a436/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from /Users/yoondohyun/Desktop/start/app/src/main/AndroidManifest.xml:14:9-35
+		ADDED from /Users/yoondohyun/Desktop/HangeulClassifier/app/src/main/AndroidManifest.xml:13:9-35
 	android:label
-		ADDED from /Users/yoondohyun/Desktop/start/app/src/main/AndroidManifest.xml:11:9-41
-	tools:ignore
-		ADDED from /Users/yoondohyun/Desktop/start/app/src/main/AndroidManifest.xml:16:9-48
+		ADDED from /Users/yoondohyun/Desktop/HangeulClassifier/app/src/main/AndroidManifest.xml:11:9-41
+	android:fullBackupContent
+		ADDED from /Users/yoondohyun/Desktop/HangeulClassifier/app/src/main/AndroidManifest.xml:9:9-54
 	android:roundIcon
-		ADDED from /Users/yoondohyun/Desktop/start/app/src/main/AndroidManifest.xml:13:9-54
+		ADDED from /Users/yoondohyun/Desktop/HangeulClassifier/app/src/main/AndroidManifest.xml:12:9-54
+	tools:targetApi
+		ADDED from /Users/yoondohyun/Desktop/HangeulClassifier/app/src/main/AndroidManifest.xml:15:9-29
 	android:icon
-		ADDED from /Users/yoondohyun/Desktop/start/app/src/main/AndroidManifest.xml:10:9-43
+		ADDED from /Users/yoondohyun/Desktop/HangeulClassifier/app/src/main/AndroidManifest.xml:10:9-43
 	android:allowBackup
-		ADDED from /Users/yoondohyun/Desktop/start/app/src/main/AndroidManifest.xml:9:9-35
+		ADDED from /Users/yoondohyun/Desktop/HangeulClassifier/app/src/main/AndroidManifest.xml:7:9-35
 	android:theme
-		ADDED from /Users/yoondohyun/Desktop/start/app/src/main/AndroidManifest.xml:15:9-40
-activity#org.tensorflow.lite.codelabs.digitclassifier.GenerateActivity
-ADDED from /Users/yoondohyun/Desktop/start/app/src/main/AndroidManifest.xml:17:9-19:40
+		ADDED from /Users/yoondohyun/Desktop/HangeulClassifier/app/src/main/AndroidManifest.xml:14:9-55
+	android:dataExtractionRules
+		ADDED from /Users/yoondohyun/Desktop/HangeulClassifier/app/src/main/AndroidManifest.xml:8:9-65
+activity#com.example.hangeulclassifier.RandomCheckActivity
+ADDED from /Users/yoondohyun/Desktop/HangeulClassifier/app/src/main/AndroidManifest.xml:16:9-18:40
 	android:exported
-		ADDED from /Users/yoondohyun/Desktop/start/app/src/main/AndroidManifest.xml:19:13-37
+		ADDED from /Users/yoondohyun/Desktop/HangeulClassifier/app/src/main/AndroidManifest.xml:18:13-37
 	android:name
-		ADDED from /Users/yoondohyun/Desktop/start/app/src/main/AndroidManifest.xml:18:13-45
-activity#org.tensorflow.lite.codelabs.digitclassifier.SubActivity
-ADDED from /Users/yoondohyun/Desktop/start/app/src/main/AndroidManifest.xml:20:9-22:40
+		ADDED from /Users/yoondohyun/Desktop/HangeulClassifier/app/src/main/AndroidManifest.xml:17:13-48
+activity#com.example.hangeulclassifier.MainActivity
+ADDED from /Users/yoondohyun/Desktop/HangeulClassifier/app/src/main/AndroidManifest.xml:19:9-27:20
 	android:exported
-		ADDED from /Users/yoondohyun/Desktop/start/app/src/main/AndroidManifest.xml:22:13-37
+		ADDED from /Users/yoondohyun/Desktop/HangeulClassifier/app/src/main/AndroidManifest.xml:21:13-36
 	android:name
-		ADDED from /Users/yoondohyun/Desktop/start/app/src/main/AndroidManifest.xml:21:13-40
-activity#org.tensorflow.lite.codelabs.digitclassifier.MainActivity
-ADDED from /Users/yoondohyun/Desktop/start/app/src/main/AndroidManifest.xml:23:9-31:20
-	android:exported
-		ADDED from /Users/yoondohyun/Desktop/start/app/src/main/AndroidManifest.xml:25:13-36
-	android:name
-		ADDED from /Users/yoondohyun/Desktop/start/app/src/main/AndroidManifest.xml:24:13-41
+		ADDED from /Users/yoondohyun/Desktop/HangeulClassifier/app/src/main/AndroidManifest.xml:20:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/yoondohyun/Desktop/start/app/src/main/AndroidManifest.xml:26:13-30:29
+ADDED from /Users/yoondohyun/Desktop/HangeulClassifier/app/src/main/AndroidManifest.xml:22:13-26:29
 action#android.intent.action.MAIN
-ADDED from /Users/yoondohyun/Desktop/start/app/src/main/AndroidManifest.xml:27:17-69
+ADDED from /Users/yoondohyun/Desktop/HangeulClassifier/app/src/main/AndroidManifest.xml:23:17-69
 	android:name
-		ADDED from /Users/yoondohyun/Desktop/start/app/src/main/AndroidManifest.xml:27:25-66
+		ADDED from /Users/yoondohyun/Desktop/HangeulClassifier/app/src/main/AndroidManifest.xml:23:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/yoondohyun/Desktop/start/app/src/main/AndroidManifest.xml:29:17-77
+ADDED from /Users/yoondohyun/Desktop/HangeulClassifier/app/src/main/AndroidManifest.xml:25:17-77
 	android:name
-		ADDED from /Users/yoondohyun/Desktop/start/app/src/main/AndroidManifest.xml:29:27-74
+		ADDED from /Users/yoondohyun/Desktop/HangeulClassifier/app/src/main/AndroidManifest.xml:25:27-74
+uses-sdk
+INJECTED from /Users/yoondohyun/Desktop/HangeulClassifier/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/yoondohyun/Desktop/HangeulClassifier/app/src/main/AndroidManifest.xml
+INJECTED from /Users/yoondohyun/Desktop/HangeulClassifier/app/src/main/AndroidManifest.xml
+MERGED from [androidx.core:core-ktx:1.7.0] /Users/yoondohyun/.gradle/caches/transforms-3/003ab52e95171c798597fedae3fb53aa/transformed/jetified-core-ktx-1.7.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.7.0] /Users/yoondohyun/.gradle/caches/transforms-3/003ab52e95171c798597fedae3fb53aa/transformed/jetified-core-ktx-1.7.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.material:material:1.6.1] /Users/yoondohyun/.gradle/caches/transforms-3/6ce448007f34aef48ef2f96b764046df/transformed/material-1.6.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.6.1] /Users/yoondohyun/.gradle/caches/transforms-3/6ce448007f34aef48ef2f96b764046df/transformed/material-1.6.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.divyanshub024:AndroidDraw:v0.1] /Users/yoondohyun/.gradle/caches/transforms-3/91a7a1c05c75eb968a71dda83928fd61/transformed/jetified-AndroidDraw-v0.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.divyanshub024:AndroidDraw:v0.1] /Users/yoondohyun/.gradle/caches/transforms-3/91a7a1c05c75eb968a71dda83928fd61/transformed/jetified-AndroidDraw-v0.1/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/yoondohyun/.gradle/caches/transforms-3/48b79fa533ffcdb2023e73518416f449/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/yoondohyun/.gradle/caches/transforms-3/48b79fa533ffcdb2023e73518416f449/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.4.2] /Users/yoondohyun/.gradle/caches/transforms-3/e8bb4d4e504c873b93148be3c0e5ac10/transformed/appcompat-1.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.4.2] /Users/yoondohyun/.gradle/caches/transforms-3/e8bb4d4e504c873b93148be3c0e5ac10/transformed/appcompat-1.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [org.tensorflow:tensorflow-lite:2.5.0] /Users/yoondohyun/.gradle/caches/transforms-3/747dfbf6def23d4eaf85c55725acb93f/transformed/jetified-tensorflow-lite-2.5.0/AndroidManifest.xml:7:5-8:41
+MERGED from [org.tensorflow:tensorflow-lite:2.5.0] /Users/yoondohyun/.gradle/caches/transforms-3/747dfbf6def23d4eaf85c55725acb93f/transformed/jetified-tensorflow-lite-2.5.0/AndroidManifest.xml:7:5-8:41
+MERGED from [com.google.android.gms:play-services-tasks:17.2.1] /Users/yoondohyun/.gradle/caches/transforms-3/31965a6006368139459abd12aad8cf38/transformed/jetified-play-services-tasks-17.2.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.2.1] /Users/yoondohyun/.gradle/caches/transforms-3/31965a6006368139459abd12aad8cf38/transformed/jetified-play-services-tasks-17.2.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/c7e92c7557d4c1b82615a72e23b0c3ec/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/c7e92c7557d4c1b82615a72e23b0c3ec/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-basement:17.6.0] /Users/yoondohyun/.gradle/caches/transforms-3/cd82de0a9476278c1f61bfeba8c703b6/transformed/jetified-play-services-basement-17.6.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.6.0] /Users/yoondohyun/.gradle/caches/transforms-3/cd82de0a9476278c1f61bfeba8c703b6/transformed/jetified-play-services-basement-17.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/yoondohyun/.gradle/caches/transforms-3/79485a6d809c33e5702041e985e36185/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/yoondohyun/.gradle/caches/transforms-3/79485a6d809c33e5702041e985e36185/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /Users/yoondohyun/.gradle/caches/transforms-3/db78fabbb32365a81d614e3f847d55dd/transformed/jetified-activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /Users/yoondohyun/.gradle/caches/transforms-3/db78fabbb32365a81d614e3f847d55dd/transformed/jetified-activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.2] /Users/yoondohyun/.gradle/caches/transforms-3/99913301a21a514c15c0103fee6454ae/transformed/jetified-appcompat-resources-1.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.2] /Users/yoondohyun/.gradle/caches/transforms-3/99913301a21a514c15c0103fee6454ae/transformed/jetified-appcompat-resources-1.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/5d6b4d17c5cd533bb28735e3e1d2e6b7/transformed/jetified-emoji2-views-helper-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/5d6b4d17c5cd533bb28735e3e1d2e6b7/transformed/jetified-emoji2-views-helper-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/c79e7fda99473cadbe43731081db6d06/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/c79e7fda99473cadbe43731081db6d06/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/yoondohyun/.gradle/caches/transforms-3/271c897c367ec42799066a7a3911e1c9/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/yoondohyun/.gradle/caches/transforms-3/271c897c367ec42799066a7a3911e1c9/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/yoondohyun/.gradle/caches/transforms-3/0101e453ea3b5ea93ad8f3e8a027dddf/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/yoondohyun/.gradle/caches/transforms-3/0101e453ea3b5ea93ad8f3e8a027dddf/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/19bc81a464e81fc23e05aa509ce5e0c7/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/19bc81a464e81fc23e05aa509ce5e0c7/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] /Users/yoondohyun/.gradle/caches/transforms-3/eaa8dce2c2e367390ab8eca15b1d1e2e/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/yoondohyun/.gradle/caches/transforms-3/eaa8dce2c2e367390ab8eca15b1d1e2e/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/yoondohyun/.gradle/caches/transforms-3/2815b28afbc07a68d4edfc568b126e7d/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/yoondohyun/.gradle/caches/transforms-3/2815b28afbc07a68d4edfc568b126e7d/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/yoondohyun/.gradle/caches/transforms-3/2ddc990fb47ed656b0dd3b3f328cd0f1/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/yoondohyun/.gradle/caches/transforms-3/2ddc990fb47ed656b0dd3b3f328cd0f1/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/5f1b51dd7625160d516a2ee38da7161a/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/5f1b51dd7625160d516a2ee38da7161a/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/c3b3741cb5446cc3a182935c35510182/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/c3b3741cb5446cc3a182935c35510182/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/b304fe979c511bf9f7a668207e881c80/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/b304fe979c511bf9f7a668207e881c80/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/yoondohyun/.gradle/caches/transforms-3/6d8f7dc9f2e796bdeb05dd1b9a0499a1/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/yoondohyun/.gradle/caches/transforms-3/6d8f7dc9f2e796bdeb05dd1b9a0499a1/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/yoondohyun/.gradle/caches/transforms-3/cc5c206eb498cb41d2d805f87fec73a0/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/yoondohyun/.gradle/caches/transforms-3/cc5c206eb498cb41d2d805f87fec73a0/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] /Users/yoondohyun/.gradle/caches/transforms-3/ece84e85ba4b9c24bc9decb30105a436/transformed/core-1.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] /Users/yoondohyun/.gradle/caches/transforms-3/ece84e85ba4b9c24bc9decb30105a436/transformed/core-1.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/3cc336b9fe518b0c5c9493aac5366f5f/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/3cc336b9fe518b0c5c9493aac5366f5f/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/yoondohyun/.gradle/caches/transforms-3/e541c6f55311f243c0405a8680f46982/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/yoondohyun/.gradle/caches/transforms-3/e541c6f55311f243c0405a8680f46982/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/yoondohyun/.gradle/caches/transforms-3/19cce34a4d301ab8bd45de5d1ee6dc21/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/yoondohyun/.gradle/caches/transforms-3/19cce34a4d301ab8bd45de5d1ee6dc21/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/yoondohyun/.gradle/caches/transforms-3/5a454cd92742c7dd483f8670b8c55797/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/yoondohyun/.gradle/caches/transforms-3/5a454cd92742c7dd483f8670b8c55797/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/c0b3725894530d8dc6952143e72fa2f3/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/c0b3725894530d8dc6952143e72fa2f3/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/yoondohyun/.gradle/caches/transforms-3/83aa7c4594b6116906e72051fbeb4c27/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/yoondohyun/.gradle/caches/transforms-3/83aa7c4594b6116906e72051fbeb4c27/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/yoondohyun/.gradle/caches/transforms-3/8f0157abd83cc7cf04afe8d0c4d96061/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/yoondohyun/.gradle/caches/transforms-3/8f0157abd83cc7cf04afe8d0c4d96061/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/be3d03d50989949933f58267023dba23/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/be3d03d50989949933f58267023dba23/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/d9c8d73ac8ac9f2c5fab5629b1a6e276/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/d9c8d73ac8ac9f2c5fab5629b1a6e276/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/38d7efb1eabb7520f355cfcc2bdefd14/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/38d7efb1eabb7520f355cfcc2bdefd14/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/yoondohyun/.gradle/caches/transforms-3/310c0c726c27f2f6106b90e441c94bc2/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/yoondohyun/.gradle/caches/transforms-3/310c0c726c27f2f6106b90e441c94bc2/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /Users/yoondohyun/.gradle/caches/transforms-3/a182a32e64915a9b645a617b16b7f440/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /Users/yoondohyun/.gradle/caches/transforms-3/a182a32e64915a9b645a617b16b7f440/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/yoondohyun/.gradle/caches/transforms-3/6d16e94b43d68d6fc1e9b6e2256690e0/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/yoondohyun/.gradle/caches/transforms-3/6d16e94b43d68d6fc1e9b6e2256690e0/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/1e4b9110109489f68400d4613196ca56/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/1e4b9110109489f68400d4613196ca56/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/0b1739947e4005404839498a84d6f962/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/0b1739947e4005404839498a84d6f962/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/026716155719664d95548ffb8b5df5e6/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/026716155719664d95548ffb8b5df5e6/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/8a5f56b1c038693c9e1c9635c2f124c1/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/8a5f56b1c038693c9e1c9635c2f124c1/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/yoondohyun/.gradle/caches/transforms-3/7f658083dbd905d59c097625d46d7025/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/yoondohyun/.gradle/caches/transforms-3/7f658083dbd905d59c097625d46d7025/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/yoondohyun/Desktop/HangeulClassifier/app/src/main/AndroidManifest.xml
+INJECTED from /Users/yoondohyun/Desktop/HangeulClassifier/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/yoondohyun/Desktop/HangeulClassifier/app/src/main/AndroidManifest.xml
+		ADDED from /Users/yoondohyun/Desktop/HangeulClassifier/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/yoondohyun/Desktop/HangeulClassifier/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/yoondohyun/Desktop/HangeulClassifier/app/src/main/AndroidManifest.xml
+		ADDED from /Users/yoondohyun/Desktop/HangeulClassifier/app/src/main/AndroidManifest.xml
+		MERGED from /Users/yoondohyun/Desktop/HangeulClassifier/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/yoondohyun/Desktop/HangeulClassifier/app/src/main/AndroidManifest.xml
 activity#com.divyanshu.draw.activity.DrawingActivity
-ADDED from [com.github.divyanshub024:AndroidDraw:v0.1] /Users/yoondohyun/.gradle/caches/transforms-3/737ffb93e82989ac05a2567a2123b58b/transformed/jetified-AndroidDraw-v0.1/AndroidManifest.xml:12:9-14:66
+ADDED from [com.github.divyanshub024:AndroidDraw:v0.1] /Users/yoondohyun/.gradle/caches/transforms-3/91a7a1c05c75eb968a71dda83928fd61/transformed/jetified-AndroidDraw-v0.1/AndroidManifest.xml:12:9-14:66
 	android:theme
-		ADDED from [com.github.divyanshub024:AndroidDraw:v0.1] /Users/yoondohyun/.gradle/caches/transforms-3/737ffb93e82989ac05a2567a2123b58b/transformed/jetified-AndroidDraw-v0.1/AndroidManifest.xml:14:13-63
+		ADDED from [com.github.divyanshub024:AndroidDraw:v0.1] /Users/yoondohyun/.gradle/caches/transforms-3/91a7a1c05c75eb968a71dda83928fd61/transformed/jetified-AndroidDraw-v0.1/AndroidManifest.xml:14:13-63
 	android:name
-		ADDED from [com.github.divyanshub024:AndroidDraw:v0.1] /Users/yoondohyun/.gradle/caches/transforms-3/737ffb93e82989ac05a2567a2123b58b/transformed/jetified-AndroidDraw-v0.1/AndroidManifest.xml:13:13-71
+		ADDED from [com.github.divyanshub024:AndroidDraw:v0.1] /Users/yoondohyun/.gradle/caches/transforms-3/91a7a1c05c75eb968a71dda83928fd61/transformed/jetified-AndroidDraw-v0.1/AndroidManifest.xml:13:13-71
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:17.6.0] /Users/yoondohyun/.gradle/caches/transforms-3/d1a8a0c9a4566d7f3db4d02333df937b/transformed/jetified-play-services-basement-17.6.0/AndroidManifest.xml:23:9-25:69
+ADDED from [com.google.android.gms:play-services-basement:17.6.0] /Users/yoondohyun/.gradle/caches/transforms-3/cd82de0a9476278c1f61bfeba8c703b6/transformed/jetified-play-services-basement-17.6.0/AndroidManifest.xml:23:9-25:69
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:17.6.0] /Users/yoondohyun/.gradle/caches/transforms-3/d1a8a0c9a4566d7f3db4d02333df937b/transformed/jetified-play-services-basement-17.6.0/AndroidManifest.xml:25:13-66
+		ADDED from [com.google.android.gms:play-services-basement:17.6.0] /Users/yoondohyun/.gradle/caches/transforms-3/cd82de0a9476278c1f61bfeba8c703b6/transformed/jetified-play-services-basement-17.6.0/AndroidManifest.xml:25:13-66
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:17.6.0] /Users/yoondohyun/.gradle/caches/transforms-3/d1a8a0c9a4566d7f3db4d02333df937b/transformed/jetified-play-services-basement-17.6.0/AndroidManifest.xml:24:13-58
+		ADDED from [com.google.android.gms:play-services-basement:17.6.0] /Users/yoondohyun/.gradle/caches/transforms-3/cd82de0a9476278c1f61bfeba8c703b6/transformed/jetified-play-services-basement-17.6.0/AndroidManifest.xml:24:13-58
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/c79e7fda99473cadbe43731081db6d06/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/yoondohyun/.gradle/caches/transforms-3/8f0157abd83cc7cf04afe8d0c4d96061/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/yoondohyun/.gradle/caches/transforms-3/8f0157abd83cc7cf04afe8d0c4d96061/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/be3d03d50989949933f58267023dba23/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/be3d03d50989949933f58267023dba23/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/c79e7fda99473cadbe43731081db6d06/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:30:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/c79e7fda99473cadbe43731081db6d06/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/c79e7fda99473cadbe43731081db6d06/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/c79e7fda99473cadbe43731081db6d06/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/c79e7fda99473cadbe43731081db6d06/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/c79e7fda99473cadbe43731081db6d06/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/yoondohyun/.gradle/caches/transforms-3/c79e7fda99473cadbe43731081db6d06/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/yoondohyun/.gradle/caches/transforms-3/8f0157abd83cc7cf04afe8d0c4d96061/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/yoondohyun/.gradle/caches/transforms-3/8f0157abd83cc7cf04afe8d0c4d96061/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/yoondohyun/.gradle/caches/transforms-3/8f0157abd83cc7cf04afe8d0c4d96061/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
